@@ -10,17 +10,17 @@ int main(void)
 	int s;
 
 	q = 'a';
-	s = '0';
+	s = 0;
 	while
-		(q < 10) {
-			putchar(q + '0');
-			q++;
+		(s < 10) {
+			putchar(s + '0');
+			s++;
 
 		}
 	while
-		(s <= 'f') {
-			putchar(s);
-			s++;
+		(q <= 'f') {
+			putchar(q);
+			q++;
 		}
 	putchar('\n');
 	return (0);
